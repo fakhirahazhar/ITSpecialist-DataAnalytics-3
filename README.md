@@ -83,6 +83,45 @@ Creating a stacked bar chart showing the grape and kiwi yields from year to year
 
 <div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics3/assets/165735471/a8f2e907-b961-4195-8b69-8f9181987bb0" /></div>
 
+## Data Visualization From Seaborn Library
+The Seaborn library is a Python package that focuses on statistical data visualization. It serves as a high-level interface built on top of Matplotlib, providing a simpler and more efficient interface for creating appealing and informative statistical graphics
+
+### Creating Bar Chart
+Import dataset 'glue' from Seaborn
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/183c12e0-84ec-4094-9061-a68a2ba2da9c" /></div>
+
+### Creating a bar plot
+Creating a bar plot to represent the 'Model' column against the 'Score' column in the 'glue' dataset
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/2b437646-8bac-42de-a767-3d1907223498" /></div>
+
+Creating a bar plot by dividing it based on the values in the 'Year' column, thus displaying different colors for each year
+
+### Creating a bar chart vertical (pivot)
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/eabed127-f3bb-4f95-a375-74dec3f29858" /></div>
+
+### Creating a bar chart Horizontal (pivot)
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/04a5df0c-3354-4041-9511-9f2b4ebef1cf" /></div>
+
+### Creating Histogram
+Import dataset 'flights' from Seaborn
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/318763b3-1068-4c41-92b4-a236c77e81c3" /></div>
+
+### Creating histogram distribution With "Bins=7"
+Create a histogram displaying the distribution of the number of passengers on flights, where the histogram result uses the number of passengers as input data and the argument bins=7 is used to determine the number of bins or data groups used in the histogram
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/03af96ce-1344-42bd-819f-6f6addb69807" /></div>
+
+### Creating histogram distribution With "Bins=100, 500, 10"
+Displaying a histogram of the distribution of the number of passengers on flights using the argument bins=np.arange(100,599,10), which is used to explicitly determine the bin boundaries, starting from 100 up to 500 with an interval of 10.
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/9edaadc4-4642-4e0c-9bd5-830a05a8d12b" /></div>
+
+<div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics-3/assets/165735471/e5ef1bd0-729a-4e4c-87ab-b3ba076b147e" /></div>
+
 ## Crisp DM
 - The Cross-Industry Standard Process for Data Mining, or CRISP-DM, is one of the data mining process models.
 - Business Understanding – What does the business need?
