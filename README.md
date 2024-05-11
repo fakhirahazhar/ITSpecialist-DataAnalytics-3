@@ -82,3 +82,13 @@ Creating a bar chart showing the grape yields from year to year in Bandung
 Creating a stacked bar chart showing the grape and kiwi yields from year to year in Bandung. Grapes are represented by the first bar chart, while kiwi is represented by the second bar chart. The argument bottom=grapes sets the kiwi bar chart to start from the grape yields, thereby showing the comparison between the two yields for each year
 
 <div align="center"><img src="https://github.com/fakhirahazhar/ITSpecialist-DataAnalytics3/assets/165735471/a8f2e907-b961-4195-8b69-8f9181987bb0" /></div>
+
+## Crisp DM
+- The Cross-Industry Standard Process for Data Mining, or CRISP-DM, is one of the data mining process models.
+- Business Understanding – What does the business need?
+- Data Understanding – What data do we have/need? Is it clean?
+- Data preparation – How do we organize the data for modeling?
+- Modeling – What modeling techniques should we apply?
+- Evaluation – Which model best meets the business objectives?
+- Deployment – How do stakeholders access the results?
+
